@@ -1,0 +1,177 @@
+body{
+    margin: 0px;
+
+}
+
+.header
+{
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 0px 10px 20px  rgba(0, 140, 221,0.2);
+}
+.header h2
+{
+    font-family: "Berlin Sans FB","times new roman";
+    font-weight: normal;
+    padding-left: 30px;
+}
+.header .titreK
+{
+    color: rgb(0, 140, 221);
+}
+
+.header .titreE
+{
+    color: rgb(0, 64, 83);
+}
+
+
+.header nav{
+
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    background-color: #fff;
+}
+.header nav a
+{
+    text-decoration: none;
+    color: black;
+    padding-left: 100px;
+    font-family: "Berlin Sans FB","times new roman";
+}
+
+.header nav a:hover
+{
+    color: rgb(0, 140, 221);
+}
+
+.content
+{
+    padding-top: 10%;
+}
+.content h1
+{
+    padding-left: 15%;
+    font-family: "Berlin Sans FB","times new roman";
+    color: rgb(6, 138, 214);
+    font-weight: normal;
+}
+.content p 
+{
+    padding-left: 18%;
+    font-family: "Berlin Sans FB","times new roman";
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.content .image
+{
+    position: absolute;
+    top: 33%;
+    left: 54%;
+    background-image: url("Profil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -40px;
+    height: 30%;
+    width: 30%;
+    border-radius: 50px;
+    border: solid 1px rgba(0, 140, 221,0.4)s;
+    box-shadow: 0px 10px 20px  rgba(0, 140, 221,0.4);
+}
+
+.footer
+{
+    margin-top: 19%;
+    text-align: center;
+    position: relative;
+}
+.footer p
+{
+    font-family: "Berlin Sans FB","times new roman";
+}
+
+.footer img
+{
+    height: 30px;
+    position: absolute;
+    top: -7px;
+    left: 33%;
+}
+
+/* style pour la page A props*/
+
+.content_page2
+{
+    display: flex;
+    margin-top: 8%;
+}
+.content_page2 div
+{
+    width: 33.3%;
+    padding : 0px 60px;
+    text-align: justify;
+    font-family:  "Berlin Sans FB","times new roman" ;
+    box-shadow: 0px 10px 20px  rgba(0, 140, 221,0.2);
+    border-radius: 30px;
+}
+.content_page2 div:hover
+{
+    box-shadow: 0px 10px 20px  rgba(0, 140, 221,0.7);
+    cursor: pointer;
+}
+
+.content_page2 div h2
+{
+    font-weight: normal;
+    color:  rgba(0, 140, 221,0.7);
+}
+
+.footer_page2
+{
+    margin-top: 3%;
+    text-align: center;
+    position: relative;
+}
+.footer_page2 p
+{
+    font-family: "Berlin Sans FB","times new roman";
+}
+
+.footer_page2 img
+{
+    height: 30px;
+    position: absolute;
+    top: -7px;
+    left: 33%;
+}
+
+/*Style pour Page Contact*/
+
+.content_page3
+{
+    margin-top: 8%;
+    margin-left: 45%;
+}
+
+.content_page3 img
+{
+    height: 50px;
+}
+
+.content_page3 .fb_whast
+{   
+    height: auto;
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 30px;
+}
+.content_page3 .fb_whast p
+{
+    padding-left: 10px;
+    font-family:  "Berlin Sans FB","times new roman" ;
+    cursor: pointer;
+}
